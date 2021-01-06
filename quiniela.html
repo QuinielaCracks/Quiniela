@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Quiniela Crack's</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="multimedia/favicon.png">
+    <link rel="apple-touch-icon" href="multimedia/favicon.png">
+    <!-- <link rel="shortcut icon" href="icon.jpg" type="image/x-icon"> -->
+    <script src="main2.js"></script>
+</head>
+
+<body onload="inicial()">
+    <br>
+    <h1 id="titulo">QUINIELA CRACK'S</h1>
+    <h1 id="slogan">LA QUINIELA CON MÁS PREMIOS</h1>
+    <br>
+
+    <br>
+    <div class="quiniela" id="quiniela">
+        <div class="aux"><h3 onclick="clean()"><ion-icon name="close-outline"></ion-icon></h3></div>
+        <div class="partido">
+            <span id="L1" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E1" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V1" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L2" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E2" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V2" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L3" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E3" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V3" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L4" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E4" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V4" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L5" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E5" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V5" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L6" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E6" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V6" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L7" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E7" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V7" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L8" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E8" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V8" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L9" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E9" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V9" onclick="selection(this)"></span>
+        </div>
+        <div class="partido">
+            <span id="L10" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="E10" onclick="selection(this)"></span>
+            <div id="_"></div>
+            <span id="V10" onclick="selection(this)"></span>
+        </div>
+        <h1 id="text"></h1>
+    </div>
+    <div class="mensaje">LOS GOLES VALEN DOS PUNTOS</div>
+    <div class="botonera">
+    <h2 class="botonenviar" onclick="send()"> Enviar <span>0</span></h2>
+    <h2 id="botonborrar" onclick="deleteall()"><img src="multimedia/basura.png" width="25" height="25"><ion-icon name="trash-outline" id="trash"></ion-icon></h2>
+    <h4><input id="goles" type="text" placeholder="Total de goles" maxlength="20" spellcheck="false"><h4 id="costo"></h4><button id="ultimogol" onclick="clearname()"><ion-icon name="backspace"></ion-icon></button>
+    <br><br>
+   <div class="instrucciones">
+		<a href="#miModal" class="text">¿Cómo jugar?</a>
+		<div id="miModal" class="modal">
+  			<div class="modal-contenido">
+    			<h2>¿CÓMO JUGAR?</h2>
+    			<p><b>Para jugar solo sigue estos sencillos pasos:</b></p>
+                <p><ul class="text1">
+                    <li>Llena tu quiniela dando click sobre el resultado en cada partido,
+                    ya sea Local, Empate o Visitante</li>
+                    <li>Anota el total de goles de la jornada en el area blanca</li>
+                    <li>Si deseas registrar más de 1 quiniela presiona en el botón  <b class="signo">+</b></li>
+                    <li>Presiona en el botón enviar para mandar tu quiniela(s), esto te mandara a whatsapp</li>
+                    <li>Una vez en Whatsapp le das click en enviar</li>
+                </ul></p>
+                <p >Por favor lee las reglas de la quiniela en el botón a un lado de las instrucciones</p>
+  			</div>
+            <a href="#" class="close">X </a> 
+  		</div>
+  	</div>
+    </br>
+    <div class="reglas">
+        <a href="#miModalr" class="textr">Reglas del juego</a>
+        <div id="miModalr" class="modalr">
+            <div class="modal-contenidor">
+                <h2>REGLAS DE LA QUINIELA</h2>
+                </br></br>
+                
+                <p><b>PREMIO TRADICIONAL Y REVANCHA</b></p>
+                <p class="tit">El primer premio o premio tradicional, es el que se entrega al ganador(es) de la quiniela, el (o los) ganador(es) será quien(es) hagan la mayor cantidad de puntos en todos los partidos, considerando que el partido con doble valor de puntos y los goles cuyo valor es de tres puntos.</p>
+                
+                <p><b>QUINIELA GRATIS</b></p>
+                <p class="tit">La quiniela gratis es para aquella (o aquellas) persona(s) que hayan obtenido la menor cantidad de puntos en todos los partidos de la quiniela.</p>
+                
+                <p><b>PREMIO INVITADO</b></p>
+                <p class="tit">El premio del invitado será para aquella persona cuyo amigo, a quien previamente invito a participar en la quiniela, sea el ganador del premio tradicional o del premio revancha, este premio es equivalente al 25% del premio total del que sea acreedor el invitado, además para poder ser acreedor a este premio, el ganador debio participar en la quiniela en cuestión.
+                En caso de no haber ganadores del premio, este será utilizado para los premios sorteados.
+                EL INVITADO DEBERA INDICAR EL NOMBRE DE QUIEN LO HAYA INVITADO AL MOMENTO DE ENVIAR LA QUINIELA, DE LO CONTRARIO NO PARTICIPARA</p>
+                
+                <p><b>PREMIO SORTEADO</b></p>
+                <p class="tit">El premio sorteado es una determinada cantidad de premios de $100.00(MXN), que serán sortados entre los participantes de cada quiniela, mismos que no hayan sido ganadores de ningun otro premio.</p>
+                
+                <p><b>PARTIDO DE ELIMINACION DIRECTA</b></p>
+                <p class="tit">En caso de que haya un partido de eliminatorias, el resultado será en base al marcador en los 90 minutos normales, no se tomará en cuenta tiempo extra ni penales. 
+                
+                <p><b>PARTIDOS SUSPENDIDOS/CANCELADOS</b></p>
+                <p class="tit">En caso de que haya un partido sea suspendido o cancelado, el mismo no será tomado en cuenta para el puntaje. En caso de que un partido sea suspendido una vez que el mismo haya comenzado, será considerado el resultado hasta el momento de ser suspendido.</p>
+                
+                <p><b>PRONOSTICOS Y CONCURSANTE</b></p>
+                <p class="tit">Los pronosticos serán tomados en cuenta tal y como aparecen en la lista de participantes que se enviara por whatsapp cada semana previo a que comienze el primer partido, en caso de haber algun error comentarlo a los administradores vía mensaje para modificarlo máximo 1 hora despues de enviada la lista, de lo contrario el concursante aprueba participar con esos pronosticos.</p>
+                
+                <p><b>RECEPCION DE QUINIELAS</b></p>
+                <p class="tit">Las quinielas serán recibidas desde el momento de su publicación, hasta el envio de la lista de participantes, posterior a eso no se recibira ninguna quiniela, sin excepción.</p>
+                
+                <p><b>PUBLICACIÓN DE GANADORES</b></p>
+                <p class="tit">Los ganadores de los diferentes premios serán publicados mediante el grupo de WhatsApp al día siguiente de terminado el último partido, al mismo tiempo se compartira una lista de todos los concursantes ordenados por la cantidad de puntos que hicieron en la quiniela.</p>
+                
+                <p >Todos los participantes al enviar su quiniela están accediendo al presente reglamento.</p>
+            </div>
+            <a href="#" class="closer">X </a> 
+        </div>
+    </div>
+
+    <br><br>
+    <input type="checkbox" id="checkcombinaciones" onclick="allowcombination()"><h6>     ¿Quiniela multiple? <ion-icon name="apps"></ion-icon></h6></br>
+
+    <br><br>
+    </div>
+    <div>
+    <h4 id="costo">Costo: $0</h4><h4 id="total">Total: $0</h4><br>
+    </div>
+    <div>
+        <h4 id="numquinielas">0 Quiniela(s)</h4>
+    </div>
+    <br>
+    <div >
+    <p id="display"></p>
+    </div>
+    <br>
+</body>
+
+</html>
