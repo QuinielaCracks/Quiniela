@@ -34,7 +34,7 @@ function start() {
 	if (quantity) document[_elefante('0x3e')]('.botonenviar\x20span')['textContent'] = quantity;
 	let _0x50118b = localStorage[_elefante('0x15')](_elefante('0xf'));
 	if (_0x50118b) {
-		_0x50118b = _0x50118b[_elefante('0x9')]('*');
+		_0x50118b = _0x50118b[_elefante('0x11')]('*');
 		for (var _0x4d9cf3 = 0x0; _0x4d9cf3 < quantity; _0x4d9cf3++) {
 			if (_0x50118b[_0x4d9cf3] && _0x50118b[_0x4d9cf3] != undefined) display[_elefante('0x31')] += _elefante('0x37') + _0x50118b[_0x4d9cf3] + _elefante('0x4');
 			else break;
@@ -47,7 +47,7 @@ function start() {
 
 function selection(_0x5c2485) {
 	let _0x1436c9 = parseInt(_0x5c2485['id'][_elefante('0x8')](0x1)) - 0x1, _0x31a3fa = document['getElementById'](_elefante('0x13'));
-	if (!_0x5c2485[_elefante('0x3a')][_elefante('0x32')]) !combinations ? (validation(_0x5c2485), res[_0x1436c9] = _0x5c2485['id'][_elefante('0x8')](0x0, 0x1)) : (res[_0x1436c9] += _0x5c2485['id'][_elefante('0x8')](0x0, 0x1), res[_0x1436c9] = res[_0x1436c9][_elefante('0x9')]('_')['join']('')), _0x5c2485[_elefante('0x3a')][_elefante('0x32')] = _elefante('0x2');
+	if (!_0x5c2485[_elefante('0x3a')][_elefante('0x32')]) !combinations ? (validation(_0x5c2485), res[_0x1436c9] = _0x5c2485['id'][_elefante('0x8')](0x0, 0x1)) : (res[_0x1436c9] += _0x5c2485['id'][_elefante('0x8')](0x0, 0x1), res[_0x1436c9] = res[_0x1436c9][_elefante('0x11')]('_')['join']('')), _0x5c2485[_elefante('0x3a')][_elefante('0x32')] = _elefante('0x2');
 	else {
 		if (combinations) {
 			_0x5c2485[_elefante('0x3a')][_elefante('0x32')] = '', console[_elefante('0x18')](res[_0x1436c9][_elefante('0x24')]);
@@ -74,7 +74,7 @@ function number() {
 
 
 function result() {
-	results = localStorage[_elefante('0x15')](_elefante('0xf')), name = document[_elefante('0x12')](_elefante('0x3d'))['value'], name = name[_elefante('0x9')]('*')[_elefante('0x1c')]('');
+	results = localStorage[_elefante('0x15')](_elefante('0xf')), name = document[_elefante('0x12')](_elefante('0x3d'))['value'], name = name[_elefante('0x11')]('*')[_elefante('0x1c')]('');
 	if (results) {
 		if (aux > 0x1) localStorage[_elefante('0x3b')](_elefante('0xf'), results + '\x0a' + res[_elefante('0x1c')]('\u00a0\u00a0') + '\u00a0\u00a0' + name + '\x20(' + aux + ')' + '*');
 		else localStorage[_elefante('0x3b')](_elefante('0xf'), results + '\x0a' + res[_elefante('0x1c')]('\u00a0\u00a0') + '\u00a0\u00a0' + name + '*');
@@ -90,7 +90,7 @@ function send() {
 	if (!quantity || quantity < 0x1) save();
 	if (quantity > 0x0) {
 		let _0x5563b0 = res[_elefante('0x1c')](_elefante('0x1'));
-		_0x5563b0 = encodeURI(localStorage[_elefante('0x15')](_elefante('0xf'))), _0x5563b0 = _0x5563b0[_elefante('0x9')]('*')[_elefante('0x1c')](_elefante('0x27')), window['location'][_elefante('0x35')] = _elefante('0xc') + _0x5563b0;
+		_0x5563b0 = encodeURI(localStorage[_elefante('0x15')](_elefante('0xf'))), _0x5563b0 = _0x5563b0[_elefante('0x11')]('*')[_elefante('0x1c')](_elefante('0x27')), window['location'][_elefante('0x35')] = _elefante('0xc') + _0x5563b0;
 	}
 }
 
@@ -192,7 +192,7 @@ function remove() {
 	if (quantity > 0x0) {
 		x = localStorage[_elefante('0x15')](_elefante('0xf')), x = removeLastLine(x), localStorage[_elefante('0x3b')](_elefante('0xf'), x), results = x['split']('*');
 		let _0x47fec5 = document[_elefante('0x12')](_elefante('0x2b'));
-		last = _0x47fec5[_elefante('0xe')]['textContent'], last = last[_elefante('0x9')]('\u00a0\u00a0'), last[0x0] = last[0x0][_elefante('0x9')]('\x0a')[_elefante('0x1c')]('');
+		last = _0x47fec5[_elefante('0xe')]['textContent'], last = last[_elefante('0x11')]('\u00a0\u00a0'), last[0x0] = last[0x0][_elefante('0x11')]('\x0a')[_elefante('0x1c')]('');
 		let _0x33a518 = 0x1;
 		for (var _0x1c726a = 0x0; _0x1c726a < 0xa; _0x1c726a++) {
 			_0x33a518 *= last[_0x1c726a][_elefante('0x24')];
