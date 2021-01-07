@@ -22,6 +22,10 @@ body{
     width: 45%;
 }
 
+img{
+    width: 100%;
+}
+
 .closew{
     font-size: 25px;
     width: 40px;
